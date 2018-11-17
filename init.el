@@ -170,6 +170,7 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
+(maybe-require-package 'use-package)
 (require 'init-local nil t)
 
 
