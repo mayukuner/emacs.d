@@ -96,6 +96,3 @@
 
 (provide 'init-local)
 ;;; init-local.el ends here
-(if 'nil (message "true")   (progn (message "false") (message "abc")))
-(when (eq system-type 'gnu/linux) (setq abc '1))
-(message "%d" abc)
